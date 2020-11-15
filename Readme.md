@@ -12,7 +12,7 @@
 > <br>**Origin attributes**:
 > <br>id="make-everything-ok-button" class="btn btn-success" href="#ok" title="Make-Button" rel="next" onclick="javascript:window.okDone(); return false;"
 > <br>**Target attributes found:** 
-> <br> <a class="btn btn-success" href="#ok" title="Make-Button" rel="next" onclick="javascript:window.okFinalize
-(); return false;"> Do all GREAT </a>
+> <br> a class="btn btn-success" href="#ok" title="Make-Button" rel="next" onclick="javascript:window.okFinalize
+(); return false;"> Do all GREAT </a (Some characters are scaped due markdown)
 > <br>**Target XPATH:** 
 > <br>html > body > div > div > div[row] > div[col-lg-8] > div[panel, panel-default] > div[panel-footer]
