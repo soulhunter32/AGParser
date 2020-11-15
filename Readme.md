@@ -2,14 +2,9 @@
 
 ### This Parser will take 2 html files and compare them against a component ID by searching the high amount of attributes matches.
  
- 
  ## Instructions
- - Clone Repository: `git clone https://github.com/soulhunter32/AGParser.git`
- - Build project: `mvn clean install`
- - Place the desired html files to compare on the /target folder
-
-## Run Application
-- Located on /target folder, execute the following command: `java -jar AGParser-1.0-SNAPSHOT-jar-with-dependencies.jar
+- Desired comparing html should be placed on the home folder
+- Located on the home folder, execute the following command: `java -jar AGParser.jar
  <origin_file_name> <target_file_name> <element_id>`
 - First and second parameters are mandatory, the third one is optional. If no optional ID is entered, the default
  id "make-everything-ok-button" will be used.
